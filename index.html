@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <h2>Тест</h2>
+    <form id="mathTestForm">
+      <div>
+        <p>1. Хто сказав "мяу"?</p>
+      </div>
+      <div class="col">
+        <p class="pp">Можливі відповіді:</p>
+        <input type="radio" id="answer1" name="answer" value="Кіт" hidden />
+        <label for="answer1" class="answer-button" onclick="checkAnswer('Кіт')"
+          >Кіт</label
+        >
+        <input type="radio" id="answer2" name="answer" value="Собака" hidden />
+        <label
+          for="answer2"
+          class="answer-button"
+          onclick="checkAnswer('Собака')"
+          >Собака</label
+        >
+        <input type="radio" id="answer3" name="answer" value="Папуга" hidden />
+        <label
+          for="answer3"
+          class="answer-button"
+          onclick="checkAnswer('Папуга')"
+          >Папуга</label
+        ><br /><br />
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

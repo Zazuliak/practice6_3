@@ -1,0 +1,34 @@
+#mathTestForm {
+  display: block;
+}
+
+#mathTestForm p {
+  margin-right: 20px; /* Додавання відступу між елементами */
+}
+
+#mathTestForm input[type="radio"] {
+  margin-right: 5px; /* Додавання відступу між радіо-кнопками */
+}
+.highlight {
+  border: 1px solid #000; /* Рамка */
+  padding: 2px 5px; /* Відступ від тексту до рамки */
+  border-radius: 3px; /* Закруглені кути рамки */
+}
+
+.answer-button,
+.pp {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.col {
+  border: 1px solid #000;
+  display: flex;
+  width: 500px;
+}
